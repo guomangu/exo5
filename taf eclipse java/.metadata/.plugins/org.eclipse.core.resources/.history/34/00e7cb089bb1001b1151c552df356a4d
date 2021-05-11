@@ -1,0 +1,70 @@
+package travaux_java;
+
+import java.util.Scanner;
+
+public class bicyclette {
+	public static void main(String[] args) {
+		System.out.println("Ne repondez que par 'oui' ou par 'non' aux questions.");
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Est-ce qu'il fait beau ?");
+		String reponse1=scan.nextLine().toLowerCase();
+		if (reponse1.equals("oui")) {
+			System.out.println("Vous trouvez le velo pour faire une petite sortie.");
+			
+			System.out.println("Est-ce qu'il est en etat ?");
+			String reponse2=scan.nextLine().toLowerCase();
+			if (reponse2.equals("oui")) {
+				System.out.println("Vous faites la fameuse petite sortie a velo pour briller devant les GONZ ^^.");
+				System.out.println("C'est la FIN petit FINAUXOR ONE.");
+			} else {
+				System.out.println("Vous allez au garage 'ARNAKVELO'.");
+				
+				System.out.println("Est-ce que la garagiste peut reparer le velo direct ?");
+				String reponse3=scan.nextLine().toLowerCase();
+				if (reponse3.equals("oui")) {
+					System.out.println("Vous faites la fameuse petite sortie a velo pour briller devant les GONZ ^^.");
+					System.out.println("C'est la FIN petit FINAUXOR TWO.");
+				} else {
+					System.out.println("Vous abandonnez la sortie a velo puis vous allez a l'etang pour chill a pate.");
+					System.out.println("C'est la FIN petit FINAUXOR THREE.");
+				}
+			}
+		} else {
+			System.out.println("Vous cherchez GoT pour le lire.");
+			
+			System.out.println("Est-ce que vous le trouvez ? Blaze?");
+			String reponse4=scan.nextLine().toLowerCase();
+			if (reponse4.equals("oui")) {
+				System.out.println("Vous lisez GoT jeune enfant chanceux.");
+				System.out.println("C'est la FIN petit FINAUXOR FOUR.");
+			} else {
+				
+				System.out.println("Vous courrez le chercher a la bibliotheque.");
+				
+				System.out.println("Est-ce que vous trouvez GoT maggle ?");
+				String reponse5=scan.nextLine().toLowerCase();
+				if (reponse5.equals("oui")) {
+					System.out.println("Vous lisez le livre et l'apprendre par coeur like a paysan.");
+					System.out.println("C'est la FIN petit FINAUXOR FIVE.");
+				} else {
+					System.out.println("Vous decidez d'emprunter un livre policier à la place comme un BG.");
+					
+					boolean condition0 = false;
+					do {
+						System.out.println("Est-ce que vous trouvez votre bonheur ?");
+						String reponse6=scan.nextLine().toLowerCase();
+						if (reponse6.equals("oui")) {
+							System.out.println("Lire intensement comme l'amour du code simple^^.");
+							System.out.println("C'est la FIN petit FINAUXOR SIX.");
+							
+							condition0 = true;
+						} else {
+							System.out.println("Vous cherchez intensement un autre livre qui satisfaira vos envies les plus lubriques.");
+						}
+					} while (condition0==false);
+				}
+			}
+		}
+	}
+}

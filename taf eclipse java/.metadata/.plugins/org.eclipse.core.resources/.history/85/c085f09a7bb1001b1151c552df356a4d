@@ -1,0 +1,7 @@
+package travaux_java;
+
+public class bicyclette {
+	public static void main(String[] args) {
+		System.out.println("Ne repondez que par 'oui' ou par 'non'.");
+	}
+}

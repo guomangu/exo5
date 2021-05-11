@@ -1,0 +1,22 @@
+package claculsurface;
+
+import java.util.Scanner;
+
+public class calc {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("balance ton rayon");
+		String reponse=scan.nextLine();
+		double a = Integer.parseInt(reponse);
+		
+		System.out.println("balance ton angle");
+		String reponseb=scan.nextLine();
+		double b = Integer.parseInt(reponseb);
+		
+		double lol=(Math.PI*(2*a)*b)/360;
+		
+		System.out.println("une surface de secteur circulaire d'angle "+b+" et de rayon "+a+" est egal a "+lol);
+	}
+
+}

@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\Stagiaire\Documents\taf eclipse java\.metadata\.plugins\org.eclipse.jdt.core
+1711253631.index
+4126355611.index
+2235627722.index
+146610449.index
+27786609.index

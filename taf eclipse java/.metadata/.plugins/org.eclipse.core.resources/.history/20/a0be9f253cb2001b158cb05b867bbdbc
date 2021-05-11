@@ -1,0 +1,14 @@
+package moyenne;
+
+import java.util.Scanner;
+
+public class moyen {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("donne des chiffre separés par des espaces");
+		String reponse=scan.nextLine().toLowerCase();
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package fourchetteGame;
+import java.util.Scanner;
+
+public class fourchette {
+
+	public static void main(String[] args) {
+		System.out.println("Debut fourchette");
+		Scanner scan = new Scanner(System.in);
+		
+		double lol = Math.random()*(0-100);
+		boolean condition=false;
+		
+		do {
+			System.out.println("DONNE un chiffre FAIT DESPI");
+			String reponse0=scan.nextLine();
+			double reponse = Integer.parseInt(reponse0);
+			
+			if (reponse<lol) {
+				System.out.println("Toujours plus HAUT Toujours plus FORT");
+			} else if(reponse>lol){
+				System.out.println("Toujours plus BAS Toujours plus FAIBLE");
+			} else {
+				System.out.println("VICTOIRE absolu Tu as plein de BOYARD");
+				condition=true;
+			}
+		} while (condition==false);
+		scan.close();
+	}
+}

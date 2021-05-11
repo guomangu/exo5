@@ -1,0 +1,37 @@
+package travaux_java;
+
+import java.util.Scanner;
+
+public class bicyclette {
+	public static void main(String[] args) {
+		System.out.println("Ne repondez que par 'oui' ou par 'non' aux questions.");
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("Est-ce qu'il fait beau ?");
+		String reponse1=scan.nextLine().toLowerCase();
+		if (reponse1.equals("oui")) {
+			System.out.println("Vous cherchez le velo pour faire une petite sortie.");
+			
+			System.out.println("Est-ce qu'il est en etat ?");
+			String reponse2=scan.nextLine().toLowerCase();
+			if (reponse2.equals("oui")) {
+				System.out.println("Vous faites la fameuse petite sortie a velo pour briller devant les GONZ ^^.");
+				System.out.println("C'est la FIN petit FINAUXOR ONE.");
+			} else {
+				System.out.println("Vous allez au garage 'ARNAKVELO'.");
+				
+				System.out.println("Est-ce que la garagiste peut reparer le velo direct ?");
+				String reponse3=scan.nextLine().toLowerCase();
+				if (reponse3.equals("oui")) {
+					System.out.println("Vous faites la fameuse petite sortie a velo pour briller devant les GONZ ^^.");
+					System.out.println("C'est la FIN petit FINAUXOR TWO.");
+				} else {
+					System.out.println("Vous abandonnez la sortie a velo puis vous allez a l'etang pour chill a pate.");
+					System.out.println("C'est la FIN petit FINAUXOR THREE.");
+				}
+			}
+		} else {
+
+		}
+	}
+}

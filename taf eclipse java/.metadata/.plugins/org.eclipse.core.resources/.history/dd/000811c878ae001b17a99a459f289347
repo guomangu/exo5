@@ -1,0 +1,18 @@
+package travaux_java;
+
+import java.util.Scanner;
+
+public class hello_world {
+	public static void main(String[] args) {
+		System.out.println("wsh alors | srola hsw  --ERROR 100456 (DIE MURDER ROBOT WARS)");
+		
+		Scanner scan = new Scanner(System.in);
+		String reponse;
+		reponse=scan.nextLine();
+		
+		System.out.println(reponse);
+
+		
+	}
+
+}

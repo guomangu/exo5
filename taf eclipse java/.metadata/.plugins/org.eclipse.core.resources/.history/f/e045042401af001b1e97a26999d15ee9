@@ -1,0 +1,53 @@
+package travaux_java;
+
+import java.util.Scanner;
+
+public class hello_world {
+	public static void main(String[] args) {
+		System.out.println("wsh alors | srola hsw  --ERROR 100456 (DIE MURDER ROBOT WARS)");
+		System.out.println("dit un truc maggle  --ERROR 708460 (NIGHT MONSTER CRY DRUGS)");
+		
+		Scanner scan = new Scanner(System.in);
+		String reponse;
+		
+		reponse=scan.nextLine().toLowerCase();
+		System.out.println(reponse);
+		
+		
+		
+		System.out.println("------------------------------------------------");
+		
+		
+		
+		int gui = 4;
+		if(gui==4) {
+			System.out.println("quel beau chiffre  --ERROR 200753 (BREAK MODE HARD SUICIDE)");
+		}else {
+			System.out.println("jeune psyco vas  --ERROR 201003 (CREEPY DEVIL PAIN DAMN)");
+		}
+		
+
+		
+		System.out.println("------------------------------------------------");
+
+		
+		
+		System.out.println("Donne un mot please ...  --ERROR 145960 (END RAGE MADNESS BLOOD)");
+		String reponse2=scan.nextLine();
+		
+		if(reponse2.equals("oui")) {
+			System.out.println("bon chien^^  --ERROR 299045 (PUNISH GOD LOOSE DEPRESION)");
+		}else {
+			System.out.println("you lose^^  --ERROR 490344 (FALSE LAVA BONES RISK)");
+		}
+
+		
+		
+		System.out.println("------------------------------------------------");
+		
+		
+		
+		scan.close();
+	}
+
+}
