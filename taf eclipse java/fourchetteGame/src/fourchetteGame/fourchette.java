@@ -10,8 +10,8 @@ public class fourchette {
 		
 		Random random = new Random();
 		int lol = random.nextInt(100 + 0) + 0;
-		//double lol = Math.random()*(100-0);
 		
+		//double lol = Math.random()*(100-0);
 		//System.out.println(lol);
 		
 		boolean condition=false;

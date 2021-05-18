@@ -1,0 +1,38 @@
+package tri;
+
+import java.util.Scanner;
+
+public class trieur {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Donne plusieur nombre ma caille");
+		String reponse=sc.nextLine();
+		String tabLettre[] = reponse.split(" ");
+		
+		int tabNb[ ] = new int[tabLettre.length];
+		int i =0;
+		for (String s : tabLettre) {
+			tabNb[i] = Integer.parseInt(s);
+			i++;
+		}
+		
+		int n=0;
+		int m;
+		int k = 0;
+		for (int j : tabNb) {
+			if (j<tabNb[k]) {
+				tabNb[n]=tabNb[k];
+				tabNb[k]=j;
+				k++;
+			}
+			n++;
+		}
+		
+		for (int o : tabNb) {
+			System.out.println(o);
+		}
+	}
+
+}

@@ -1,0 +1,25 @@
+package convertisseur;
+
+import java.util.Scanner;
+
+public class conv {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("convertisseur degré celcius et farenheit");
+		System.out.println("------------------------------------------");
+		char mode =' ';
+		String test="";
+		
+		do {
+			System.out.println("choisissez le mode de conversion");
+			System.out.println("1 - conv celcius vers faren");
+			System.out.println("2 - conv faren vers celcius");
+		
+			test=sc.nextLine();
+			mode=test.charAt(0);
+			if (mode!='1' && mode!='2' && test.length()>1) {
+				System.out.println("Mode Inconnu ! veiller reiterer mdr");
+			}
+		}while(mode!='1' && mode!='2' && test.length()>1);
+	}
+}

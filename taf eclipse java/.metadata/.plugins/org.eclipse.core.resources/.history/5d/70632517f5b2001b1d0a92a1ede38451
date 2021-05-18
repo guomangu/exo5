@@ -1,0 +1,13 @@
+package caracara;
+
+import java.util.Scanner;
+
+public class caractere {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Ecrit moi donc une phrase avec un .");
+		String reponse=scan.nextLine();
+	}
+
+}

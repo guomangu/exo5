@@ -1,0 +1,14 @@
+package tri;
+
+import java.util.Scanner;
+
+public class trieur {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("AUjourd'hui nous allons trier des tableau bien a vous et a moi !!!");
+		System.out.println("------------------------------------------------------------------");
+
+	}
+
+}

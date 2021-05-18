@@ -1,0 +1,18 @@
+package convertisseur;
+
+import java.util.Scanner;
+
+public class conv {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("convertisseur degré celcius et farenheight");
+		System.out.println("------------------------------------------");
+		
+		System.out.println("choisissez le mode de conversion");
+		System.out.println("1 - conv celcius vers faren");
+		System.out.println("2 - conv faren vers celcius");
+		
+	}
+
+}

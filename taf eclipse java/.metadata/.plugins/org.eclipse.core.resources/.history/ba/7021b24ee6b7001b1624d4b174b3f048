@@ -1,0 +1,19 @@
+package palindrome;
+
+import java.util.Scanner;
+
+public class paladindrome {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Donne chaine de cara plz");
+		String reponse=sc.nextLine();
+		String result = reponse.replaceAll("\\s+","");
+		System.out.println(result);
+
+		
+
+	}
+
+}

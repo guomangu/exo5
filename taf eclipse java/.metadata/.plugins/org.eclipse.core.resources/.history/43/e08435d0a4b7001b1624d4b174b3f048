@@ -1,0 +1,26 @@
+package fourchette2;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class bruleParMaFourche {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		Random random = new Random();
+		double lol = random.nextInt(100 + 0) + 0;
+		
+		boolean boo = false;
+		do {
+			System.out.println("Donne un chiffre je te donnerai une FOURCHETTE!!");
+			String userr=scan.nextLine();
+			double user = Integer.parseInt(userr);
+			
+			
+			
+			if (user==lol) {
+				boo=true;
+			}
+		} while (boo==false);
+	}
+}
