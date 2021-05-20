@@ -18,6 +18,7 @@ public class trieur {
 			z++;
 		}
 	
+		//mdr
           for (int i = 0; i < tabNb.length - 1; i++)  
           {
                int index = i;  
@@ -32,7 +33,7 @@ public class trieur {
                tabNb[index] = tabNb[i]; 
                tabNb[i] = min;
           }
-	     
+	     //mdr
 		
 		for (int o : tabNb) {
 			System.out.println(o);
